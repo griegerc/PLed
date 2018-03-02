@@ -16,7 +16,7 @@ PLed is an Arduino library written in C++ which allows you to operate more than 
 
 
 ## Setup
--- IMAGE MISSING --
+see: http://elektro.turanis.de/html/prj0024.html
 
 ## Usage
 
