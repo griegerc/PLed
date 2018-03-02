@@ -27,21 +27,23 @@ Include the header file of the library:
 
 Add some LEDs you want to operate:
 ```c
-PLed led1(PIN_LED1);
-PLed led2(PIN_LED2);
-PLed led3(PIN_LED3);
+PLed led1 = PLed(PIN_LED1);
+PLed led2 = PLed(PIN_LED2);
+PLed led3 = PLed(PIN_LED3);
 ```
 
 Activate the LED operations in the main setup() or loop() function:
 ```c
-led1.activateBlink(100, 1000);
-led2.activateBlink(500, 79, 10);
+led1.activateBlink(100, 100);
+led2.activateBlink(500, 279, 10);
 led3.activateFade(3);
 ```
 
-Enter the update function in the main loop() function:
+Enter the update function in the main loop() function for every LED:
 ```c
-PLed::update();
+led1.update();
+led2.update();
+led3.update();
 ```
 
-Examine the "example.ino" for a complete sample.
+Examine the "demo.ino" for a complete example.
