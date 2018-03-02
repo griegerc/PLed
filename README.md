@@ -3,23 +3,21 @@
 PLed is an Arduino library written in C++ which allows you to operate more than one LED at the same time in a non blocking way.
 
 ## Features
-  - Blinking a LED with different On/Off delay times
-  - Fading a LED with a given amount of fading time
+  - LED blinks with different on/off delay times
+  - LED fades with a given amount of swelling time
   - Set minimum and maximum brightness of every LED
   - Give an optional number of iterations how often the LEDs should blink or fade
 
 ## How to install the library
- - Download the lastes release of this library from github
+ - Download the lastest release of this library from github as a zip
  - Open the Arduino IDE
  - Go to the Library Manager (available from IDE version 1.6.2): Open the IDE and click to the "Sketch" menu and then Include Library > Add .ZIP Library...
  - Importing the .zip file of this library and you´re done
-
 
 ## Setup
 see: http://elektro.turanis.de/html/prj0024.html
 
 ## Usage
-
 Include the header file of the library:
 ```c
 #include <PLed.h>
